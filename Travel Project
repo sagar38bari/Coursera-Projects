@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        #nav ul{
+            display: flex;
+            list-style-type: none;
+            flex-direction: row;
+            background-color: black;
+            color: white;
+            height: 70px;
+        }
+        #logo {
+            font-size: 30px;
+            font-weight: bold;
+            margin-right: 300px;
+            display: flex;
+            align-items: center;
+        }
+        .menu {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 100px;
+        }
+        #searchbar {
+            display: flex;
+            align-items: center;
+        }
+        #search {
+            border-radius: 15px;
+            height: 40px;
+            width: 300px;
+        }
+        #btnsearch {
+            height: 40px;
+            border-radius: 15px;
+            background-color: #10aa8b;
+            margin-left: 20px;
+            width: 85px;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <ul>
+            <li id="logo">Travel</li>
+            <li class="menu">Home</li>
+            <li class="menu">About us</li>
+            <li class="menu">Contact us</li>
+            <li id="searchbar"><input type="search" name="search" id="search" placeholder=" Enter your destination"
+                ><button id="btnsearch">Search</button></li>
+        </ul>
+    </div>
+</body>
+</html>
